@@ -5,6 +5,7 @@ import { ThemeProvider } from "../app/components/theme-provider";
 import { Navbar } from "./components/Navbar";
 import { getKindeServerSession } from "@kinde-oss/kinde-auth-nextjs/server";
 import { unstable_noStore as noStore } from "next/cache";
+import prisma from "./lib/db";
 
 const inter = Inter({ subsets: ["latin"] });
 

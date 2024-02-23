@@ -18,7 +18,7 @@ import {
 export const navItems = [
   { name: "Home", href: "/dashboard", icon: Home },
   { name: "Settings", href: "/dashboard/settings", icon: Settings },
-  { name: "Billing", href: "/dashboard/billings", icon: CreditCard },
+  { name: "Billing", href: "/dashboard/billing", icon: CreditCard },
 ];
 export default function UserNav({name, email, image}:{name:string, email:string, image:string}) {
   return (
